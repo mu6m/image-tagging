@@ -1,0 +1,38 @@
+{
+  "name": "ddos_protect",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hcaptcha/react-hcaptcha": "^1.10.1",
+    "@prisma/client": "5.16.1",
+    "@types/jsonwebtoken": "^9.0.6",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "drizzle-kit": "^0.22.8",
+    "drizzle-orm": "^0.31.2",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.2.4",
+    "next-hcaptcha": "^1.4.3",
+    "pg": "^8.12.0",
+    "postgres": "^3.4.4",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "prisma": "5.16.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
